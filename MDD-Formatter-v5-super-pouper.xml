@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+
+<profile kind="CodeFormatterProfile" name="FU-Formatter-v3" version="12">
+    <variable name="root" select="org.eclipse.jdt.core.formatter"/>
+    <setting id="$root.comment.insert_new_line_before_root_tags" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.disabling_tag" value="@formatter:off"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_annotation" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_type_parameters" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_type_declaration" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_type_arguments" value="insert"/><!-- v3 !-->
+    <setting id="$root.brace_position_for_anonymous_type_declaration" value="end_of_line"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_colon_in_case" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_brace_in_array_initializer" value="insert"/><!-- v3 !-->
+    <setting id="$root.comment.new_lines_at_block_boundaries" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_in_empty_annotation_declaration" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_before_closing_brace_in_array_initializer" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_annotation" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.blank_lines_before_field" value="0"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_while" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.use_on_off_tags" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_between_empty_parens_in_annotation_type_member_declaration" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_before_else_in_if_statement" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_prefix_operator" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.keep_else_statement_on_same_line" value="false"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_ellipsis" value="insert"/><!-- v3 !-->
+    <setting id="$root.comment.insert_new_line_for_parameter" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_annotation_type_declaration" value="insert"/><!-- v3 !-->
+    <setting id="$root.indent_breaks_compare_to_cases" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_at_in_annotation" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_multiple_fields" value="16"/><!-- v3 !-->
+    <setting id="$root.alignment_for_expressions_in_array_initializer" value="16"/><!-- v3 !-->
+    <setting id="$root.alignment_for_conditional_expression" value="80"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_for" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_binary_operator" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_question_in_wildcard" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.brace_position_for_array_initializer" value="end_of_line"/><!-- v3 !-->
+    <setting id="$root.insert_space_between_empty_parens_in_enum_constant" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_before_finally_in_try_statement" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_local_variable" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_before_catch_in_try_statement" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_while" value="insert"/><!-- v3 !-->
+    <setting id="$root.blank_lines_after_package" value="1"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_type_parameters" value="insert"/><!-- v3 !-->
+    <setting id="$root.continuation_indentation" value="2"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_postfix_operator" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_arguments_in_method_invocation" value="16"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_angle_bracket_in_type_arguments" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_superinterfaces" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.blank_lines_before_new_chunk" value="1"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_binary_operator" value="insert"/><!-- v3 !-->
+    <setting id="$root.blank_lines_before_package" value="0"/><!-- v3 !-->
+    <setting id="org.eclipse.jdt.core.compiler.source" value="1.7"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_enum_constant_arguments" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_constructor_declaration" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.comment.format_line_comments" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_closing_angle_bracket_in_type_arguments" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_enum_declarations" value="insert"/><!-- v3 !-->
+    <setting id="$root.join_wrapped_lines" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_block" value="insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_arguments_in_explicit_constructor_call" value="16"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_method_invocation_arguments" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.blank_lines_before_member_type" value="1"/><!-- v3 !-->
+    <setting id="$root.align_type_members_on_columns" value="false"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_enum_constant" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_for" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_method_declaration" value="insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_selector_in_method_invocation" value="16"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_switch" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_unary_operator" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_colon_in_case" value="insert"/><!-- v3 !-->
+    <setting id="$root.comment.indent_parameter_description" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_method_declaration" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_switch" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_enum_declaration" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_angle_bracket_in_type_parameters" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.comment.clear_blank_lines_in_block_comment" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_in_empty_type_declaration" value="insert"/><!-- v3 !-->
+    <setting id="$root.lineSplit" value="120"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_if" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_between_brackets_in_array_type_reference" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_parenthesized_expression" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_explicitconstructorcall_arguments" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_constructor_declaration" value="insert"/><!-- v3 !-->
+    <setting id="$root.blank_lines_before_first_class_body_declaration" value="0"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_method" value="insert"/><!-- v3 !-->
+    <setting id="$root.indentation.size" value="4"/><!-- v3 !-->
+    <setting id="$root.insert_space_between_empty_parens_in_method_declaration" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.enabling_tag" value="@formatter:on"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_enum_constant" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_superclass_in_type_declaration" value="16"/><!-- v3 !-->
+    <setting id="$root.alignment_for_assignment" value="16"/><!-- v3 !-->
+    <setting id="org.eclipse.jdt.core.compiler.problem.assertIdentifier" value="error"/><!-- v3 !-->
+    <setting id="$root.tabulation.char" value="space"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_constructor_declaration_parameters" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_semicolon_in_try_resources" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_prefix_operator" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.indent_statements_compare_to_body" value="true"/><!-- v3 !-->
+    <setting id="$root.blank_lines_before_method" value="1"/><!-- v3 !-->
+    <setting id="$root.wrap_outer_expressions_when_nested" value="true"/><!-- v3 !-->
+    <setting id="$root.format_guardian_clause_on_one_line" value="false"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_colon_in_for" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_cast" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_parameters_in_constructor_declaration" value="16"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_colon_in_labeled_statement" value="insert"/><!-- v3 !-->
+    <setting id="$root.brace_position_for_annotation_type_declaration" value="end_of_line"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_in_empty_method_body" value="insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_method_declaration" value="0"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_method_invocation" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_try" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_bracket_in_array_allocation_expression" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_enum_constant" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_annotation" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_at_in_annotation_type_declaration" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_method_declaration_throws" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_if" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.brace_position_for_switch" value="end_of_line"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_method_declaration_throws" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_parenthesized_expression_in_return" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_annotation" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_question_in_conditional" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_question_in_wildcard" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_try" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_bracket_in_array_allocation_expression" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.comment.preserve_white_space_between_code_and_line_comments" value="false"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_parenthesized_expression_in_throw" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_type_arguments" value="do not insert"/><!-- v3 !-->
+    <setting id="org.eclipse.jdt.core.compiler.problem.enumIdentifier" value="error"/><!-- v3 !-->
+    <setting id="$root.indent_switchstatements_compare_to_switch" value="false"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_ellipsis" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.brace_position_for_block" value="end_of_line"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_for_inits" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.brace_position_for_method_declaration" value="end_of_line"/><!-- v3 !-->
+    <setting id="$root.compact_else_if" value="true"/><!-- v3 !-->
+    <setting id="$root.wrap_before_or_operator_multicatch" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_array_initializer" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_for_increments" value="insert"/><!-- v3 !-->
+    <setting id="$root.format_line_comment_starting_on_first_column" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_bracket_in_array_reference" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_field" value="insert"/><!-- v3 !-->
+    <setting id="$root.brace_position_for_enum_constant" value="end_of_line"/><!-- v3 !-->
+    <setting id="$root.comment.indent_root_tags" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_enum_declarations" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_union_type_in_multicatch" value="16"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_explicitconstructorcall_arguments" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_switch" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_method_declaration_parameters" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_superinterfaces" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_allocation_expression" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.tabulation.size" value="4"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_bracket_in_array_type_reference" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_after_opening_brace_in_array_initializer" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_closing_brace_in_block" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_bracket_in_array_reference" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_in_empty_enum_constant" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_angle_bracket_in_type_arguments" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_constructor_declaration" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_constructor_declaration_throws" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_if" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.comment.clear_blank_lines_in_javadoc_comment" value="true"/><!-- v3 !-->
+    <setting id="$root.alignment_for_throws_clause_in_constructor_declaration" value="16"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_assignment_operator" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_assignment_operator" value="insert"/><!-- v3 !-->
+    <setting id="$root.indent_empty_lines" value="false"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_synchronized" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_closing_paren_in_cast" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_method_declaration_parameters" value="insert"/><!-- v3 !-->
+    <setting id="$root.brace_position_for_block_in_case" value="end_of_line"/><!-- v3 !-->
+    <setting id="$root.number_of_empty_lines_to_preserve" value="1"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_method_declaration" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_catch" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_constructor_declaration" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_method_invocation" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_bracket_in_array_reference" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_arguments_in_qualified_allocation_expression" value="16"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_and_in_type_parameter" value="insert"/><!-- v3 !-->
+    <setting id="org.eclipse.jdt.core.compiler.compliance" value="1.7"/><!-- v3 !-->
+    <setting id="$root.continuation_indentation_for_array_initializer" value="2"/><!-- v3 !-->
+    <setting id="$root.insert_space_between_empty_brackets_in_array_allocation_expression" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_at_in_annotation_type_declaration" value="insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_arguments_in_allocation_expression" value="16"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_cast" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_unary_operator" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_angle_bracket_in_parameterized_type_reference" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_anonymous_type_declaration" value="insert"/><!-- v3 !-->
+    <setting id="$root.keep_empty_array_initializer_on_one_line" value="false"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_in_empty_enum_declaration" value="insert"/><!-- v3 !-->
+    <setting id="$root.keep_imple_if_on_one_line" value="false"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_constructor_declaration_parameters" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_closing_angle_bracket_in_type_parameters" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_at_end_of_file_if_missing" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_colon_in_for" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_colon_in_labeled_statement" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_parameterized_type_reference" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_superinterfaces_in_type_declaration" value="16"/><!-- v3 !-->
+    <setting id="$root.alignment_for_binary_expression" value="16"/><!-- v3 !-->
+    <setting id="$root.brace_position_for_enum_declaration" value="end_of_line"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_type" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_while" value="do not insert"/><!-- v3 !-->
+    <setting id="org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode" value="enabled"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_try" value="insert"/><!-- v3 !-->
+    <setting id="$root.put_empty_statement_on_new_line" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_after_label" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_parameter" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_angle_bracket_in_type_parameters" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_between_empty_parens_in_method_invocation" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_before_while_in_do_statement" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_arguments_in_enum_constant" value="0"/><!-- v3 !-->
+    <setting id="$root.comment.format_javadoc_comments" value="true"/><!-- v3 !-->
+    <setting id="$root.comment.line_length" value="100"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_package" value="insert"/><!-- v3 !-->
+    <setting id="$root.blank_lines_between_import_groups" value="1"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_enum_constant_arguments" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_semicolon" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.brace_position_for_constructor_declaration" value="end_of_line"/><!-- v3 !-->
+    <setting id="$root.number_of_blank_lines_at_beginning_of_method_body" value="0"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_colon_in_conditional" value="insert"/><!-- v3 !-->
+    <setting id="$root.indent_body_declarations_compare_to_type_header" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_annotation_type_member_declaration" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.wrap_before_binary_operator" value="true"/><!-- v3 !-->
+    <setting id="$root.indent_body_declarations_compare_to_enum_declaration_header" value="true"/><!-- v3 !-->
+    <setting id="$root.blank_lines_between_type_declarations" value="1"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_synchronized" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.indent_statements_compare_to_block" value="true"/><!-- v3 !-->
+    <setting id="$root.alignment_for_superinterfaces_in_enum_declaration" value="16"/><!-- v3 !-->
+    <setting id="$root.join_lines_in_comments" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_question_in_conditional" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_multiple_field_declarations" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_compact_if" value="16"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_for_inits" value="insert"/><!-- v3 !-->
+    <setting id="$root.indent_switchstatements_compare_to_cases" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_array_initializer" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_colon_in_default" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_and_in_type_parameter" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_between_empty_parens_in_constructor_declaration" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.blank_lines_before_imports" value="1"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_colon_in_assert" value="insert"/><!-- v3 !-->
+    <setting id="$root.comment.format_html" value="true"/><!-- v3 !-->
+    <setting id="$root.alignment_for_throws_clause_in_method_declaration" value="16"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_angle_bracket_in_type_parameters" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_bracket_in_array_allocation_expression" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_in_empty_anonymous_type_declaration" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_colon_in_conditional" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_angle_bracket_in_parameterized_type_reference" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_for" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_postfix_operator" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.comment.format_source_code" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_synchronized" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_allocation_expression" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_constructor_declaration_throws" value="insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_parameters_in_method_declaration" value="16"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_brace_in_array_initializer" value="insert"/><!-- v3 !-->
+    <setting id="org.eclipse.jdt.core.compiler.codegen.targetPlatform" value="1.7"/><!-- v3 !-->
+    <setting id="$root.alignment_for_resources_in_try" value="80"/><!-- v3 !-->
+    <setting id="$root.use_tabs_only_for_leading_indentations" value="false"/><!-- v3 !-->
+    <setting id="$root.alignment_for_arguments_in_annotation" value="0"/><!-- v3 !-->
+    <setting id="$root.comment.format_header" value="true"/><!-- v3 !-->
+    <setting id="$root.comment.format_block_comments" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_enum_constant" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.alignment_for_enum_constants" value="49"/><!-- v3 !-->
+    <setting id="$root.insert_new_line_in_empty_block" value="insert"/><!-- v3 !-->
+    <setting id="$root.indent_body_declarations_compare_to_annotation_declaration_header" value="true"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_parenthesized_expression" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_parenthesized_expression" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_catch" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_multiple_local_declarations" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_switch" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_comma_in_for_increments" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_method_invocation" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_colon_in_assert" value="insert"/><!-- v3 !-->
+    <setting id="$root.brace_position_for_type_declaration" value="end_of_line"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_array_initializer" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_between_empty_braces_in_array_initializer" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_method_declaration" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_semicolon_in_for" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_catch" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_angle_bracket_in_parameterized_type_reference" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_multiple_field_declarations" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_annotation" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_parameterized_type_reference" value="insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_method_invocation_arguments" value="insert"/><!-- v3 !-->
+    <setting id="$root.comment.new_lines_at_javadoc_boundaries" value="true"/><!-- v3 !-->
+    <setting id="$root.blank_lines_after_imports" value="1"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_comma_in_multiple_local_declarations" value="insert"/><!-- v3 !-->
+    <setting id="$root.indent_body_declarations_compare_to_enum_constant_header" value="false"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_semicolon_in_for" value="insert"/><!-- v3 !-->
+    <setting id="$root.never_indent_line_comments_on_first_column" value="false"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_semicolon_in_try_resources" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.insert_space_before_opening_angle_bracket_in_type_arguments" value="do not insert"/><!-- v3 !-->
+    <setting id="$root.never_indent_block_comments_on_first_column" value="false"/><!-- v3 !-->
+    <setting id="$root.keep_then_statement_on_same_line" value="false"/><!-- v3 !-->
+    <setting id="$root.insert_space_after_ellipsis" value="insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_enum_declarations" value="insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_new_line_in_empty_annotation_declaration" value="insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_allocation_expression" value="do not insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_space_before_at_in_annotation_type_declaration" value="insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.parentheses_positions_in_for_statment" value="common_lines"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.comment.new_lines_at_block_boundaries" value="true"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_constructor_declaration_parameters" value="insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.comment.insert_new_line_for_parameter" value="insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_package" value="insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.parentheses_positions_in_method_invocation" value="common_lines"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_space_between_empty_parens_in_enum_constant" value="do not insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.blank_lines_after_imports" value="1"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_while" value="do not insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.comment.insert_new_line_before_root_tags" value="do not insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.disabling_tag" value="@formatter:off"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_annotation" value="insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_type_parameters" value="do not insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_type_declaration" value="insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_type_arguments" value="insert"/><!-- v4 !--><!-- v4 !-->
+    <setting id="$root.brace_position_for_anonymous_type_declaration" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_colon_in_case" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_brace_in_array_initializer" value="insert"/><!-- v4 !-->
+    <setting id="$root.comment.new_lines_at_block_boundaries" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_in_empty_annotation_declaration" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_before_closing_brace_in_array_initializer" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_annotation" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.blank_lines_before_field" value="0"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_while" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.use_on_off_tags" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_between_empty_parens_in_annotation_type_member_declaration" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_method_declaration_throws" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.parentheses_positions_in_switch_statement" value="common_lines"/><!-- v4 !-->
+    <setting id="$root.comment.format_javadoc_comments" value="true"/><!-- v4 !-->
+    <setting id="$root.indentation.size" value="4"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_postfix_operator" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.parentheses_positions_in_enum_constant_declaration" value="common_lines"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_for_increments" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_type_arguments" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_for_inits" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_in_empty_anonymous_type_declaration" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_semicolon_in_for" value="insert"/><!-- v4 !-->
+    <setting id="$root.disabling_tag" value="@formatter:off"/><!-- v4 !-->
+    <setting id="$root.continuation_indentation" value="2"/><!-- v4 !-->
+    <setting id="$root.alignment_for_enum_constants" value="49"/><!-- v4 !-->
+    <setting id="$root.blank_lines_before_imports" value="1"/><!-- v4 !-->
+    <setting id="$root.blank_lines_after_package" value="1"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_binary_operator" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_multiple_local_declarations" value="insert"/><!-- v4 !-->
+    <setting id="$root.parentheses_positions_in_if_while_statement" value="common_lines"/><!-- v4 !-->
+    <setting id="$root.alignment_for_arguments_in_enum_constant" value="0"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_angle_bracket_in_parameterized_type_reference" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.comment.indent_root_tags" value="true"/><!-- v4 !-->
+    <setting id="$root.wrap_before_or_operator_multicatch" value="true"/><!-- v4 !-->
+    <setting id="$root.enabling_tag" value="@formatter:on"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_closing_brace_in_block" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_parenthesized_expression_in_return" value="insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_throws_clause_in_method_declaration" value="16"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_parameter" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.keep_then_statement_on_same_line" value="false"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_field" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_explicitconstructorcall_arguments" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_in_empty_block" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_prefix_operator" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.blank_lines_between_type_declarations" value="1"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_brace_in_array_initializer" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_for" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_catch" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_angle_bracket_in_type_arguments" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_method" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_switch" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_parameterized_type_references" value="0"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_anonymous_type_declaration" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_parenthesized_expression" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_enum_constant" value="insert"/><!-- v4 !-->
+    <setting id="$root.never_indent_line_comments_on_first_column" value="false"/><!-- v4 !-->
+    <setting id="org.eclipse.jdt.core.compiler.problem.enumIdentifier" value="error"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_and_in_type_parameter" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_for_inits" value="insert"/><!-- v4 !-->
+    <setting id="$root.indent_statements_compare_to_block" value="true"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_anonymous_type_declaration" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_question_in_wildcard" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_annotation" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_method_invocation_arguments" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_switch" value="insert"/><!-- v4 !-->
+    <setting id="$root.comment.line_length" value="100"/><!-- v4 !-->
+    <setting id="$root.use_on_off_tags" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_between_empty_brackets_in_array_allocation_expression" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_enum_constant" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_between_empty_parens_in_method_invocation" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_assignment_operator" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_type_declaration" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_for" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.comment.preserve_white_space_between_code_and_line_comments" value="false"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_local_variable" value="insert"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_method_declaration" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_method_invocation" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_union_type_in_multicatch" value="16"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_colon_in_for" value="insert"/><!-- v4 !-->
+    <setting id="$root.number_of_blank_lines_at_beginning_of_method_body" value="0"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_closing_angle_bracket_in_type_arguments" value="insert"/><!-- v4 !-->
+    <setting id="$root.keep_else_statement_on_same_line" value="false"/><!-- v4 !-->
+    <setting id="$root.alignment_for_binary_expression" value="16"/><!-- v4 !-->
+    <setting id="$root.parentheses_positions_in_catch_clause" value="common_lines"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_parameterized_type_reference" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_array_initializer" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_multiple_field_declarations" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_annotation" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_arguments_in_explicit_constructor_call" value="16"/><!-- v4 !-->
+    <setting id="$root.indent_body_declarations_compare_to_annotation_declaration_header" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_superinterfaces" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_colon_in_default" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_question_in_conditional" value="insert"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_block" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_constructor_declaration" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_lambda_body" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.compact_else_if" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_type_parameters" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_catch" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_method_invocation" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.put_empty_statement_on_new_line" value="true"/><!-- v4 !-->
+    <setting id="$root.alignment_for_parameters_in_constructor_declaration" value="16"/><!-- v4 !-->
+    <setting id="$root.alignment_for_type_parameters" value="0"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_method_invocation_arguments" value="insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_arguments_in_method_invocation" value="16"/><!-- v4 !-->
+    <setting id="$root.alignment_for_throws_clause_in_constructor_declaration" value="16"/><!-- v4 !-->
+    <setting id="org.eclipse.jdt.core.compiler.problem.assertIdentifier" value="error"/><!-- v4 !-->
+    <setting id="$root.comment.clear_blank_lines_in_block_comment" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_before_catch_in_try_statement" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_try" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_at_end_of_file_if_missing" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.comment.clear_blank_lines_in_javadoc_comment" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_array_initializer" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_binary_operator" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_unary_operator" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_expressions_in_array_initializer" value="16"/><!-- v4 !-->
+    <setting id="$root.format_line_comment_starting_on_first_column" value="true"/><!-- v4 !-->
+    <setting id="$root.number_of_empty_lines_to_preserve" value="1"/><!-- v4 !-->
+    <setting id="$root.parentheses_positions_in_annotation" value="common_lines"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_colon_in_case" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_ellipsis" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_semicolon_in_try_resources" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_colon_in_assert" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_if" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_type_arguments" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_and_in_type_parameter" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_in_empty_type_declaration" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_parenthesized_expression" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.comment.format_line_comments" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_colon_in_labeled_statement" value="insert"/><!-- v4 !-->
+    <setting id="$root.align_type_members_on_columns" value="false"/><!-- v4 !-->
+    <setting id="$root.alignment_for_assignment" value="16"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_in_empty_method_body" value="insert"/><!-- v4 !-->
+    <setting id="$root.indent_body_declarations_compare_to_type_header" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_between_empty_parens_in_method_declaration" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_enum_constant" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_superinterfaces_in_type_declaration" value="16"/><!-- v4 !-->
+    <setting id="$root.blank_lines_before_first_class_body_declaration" value="0"/><!-- v4 !-->
+    <setting id="$root.alignment_for_conditional_expression" value="80"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_before_closing_brace_in_array_initializer" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_constructor_declaration_parameters" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.format_guardian_clause_on_one_line" value="false"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_if" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_after_annotation_on_type" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_block" value="insert"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_enum_declaration" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_block_in_case" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_constructor_declaration" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.comment.format_header" value="true"/><!-- v4 !-->
+    <setting id="$root.alignment_for_arguments_in_allocation_expression" value="16"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_method_invocation" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_while" value="insert"/><!-- v4 !-->
+    <setting id="org.eclipse.jdt.core.compiler.codegen.inlineJsrBytecode" value="enabled"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_switch" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_method_declaration" value="0"/><!-- v4 !-->
+    <setting id="$root.join_wrapped_lines" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_between_empty_parens_in_constructor_declaration" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.wrap_before_conditional_operator" value="true"/><!-- v4 !-->
+    <setting id="$root.indent_switchstatements_compare_to_cases" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_bracket_in_array_allocation_expression" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_synchronized" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.align_fields_grouping_blank_lines" value="2147483647"/><!-- v4 !-->
+    <setting id="$root.comment.new_lines_at_javadoc_boundaries" value="true"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_annotation_type_declaration" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_colon_in_for" value="insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_resources_in_try" value="80"/><!-- v4 !-->
+    <setting id="$root.use_tabs_only_for_leading_indentations" value="false"/><!-- v4 !-->
+    <setting id="$root.parentheses_positions_in_try_clause" value="common_lines"/><!-- v4 !-->
+    <setting id="$root.alignment_for_selector_in_method_invocation" value="81"/><!-- v4 !-->
+    <setting id="$root.never_indent_block_comments_on_first_column" value="false"/><!-- v4 !-->
+    <setting id="org.eclipse.jdt.core.compiler.source" value="1.8"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_synchronized" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_constructor_declaration_throws" value="insert"/><!-- v4 !-->
+    <setting id="$root.tabulation.size" value="4"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_in_empty_enum_constant" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_allocation_expression" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_bracket_in_array_reference" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_colon_in_conditional" value="insert"/><!-- v4 !-->
+    <setting id="$root.comment.format_source_code" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_array_initializer" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_try" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_semicolon_in_try_resources" value="insert"/><!-- v4 !-->
+    <setting id="$root.blank_lines_before_field" value="0"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_at_in_annotation" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.continuation_indentation_for_array_initializer" value="2"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_question_in_wildcard" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.blank_lines_before_method" value="1"/><!-- v4 !-->
+    <setting id="$root.alignment_for_superclass_in_type_declaration" value="16"/><!-- v4 !-->
+    <setting id="$root.alignment_for_superinterfaces_in_enum_declaration" value="16"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_parenthesized_expression_in_throw" value="insert"/><!-- v4 !-->
+    <setting id="$root.wrap_before_assignment_operator" value="false"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_colon_in_labeled_statement" value="do not insert"/><!-- v4 !-->
+    <setting id="org.eclipse.jdt.core.compiler.codegen.targetPlatform" value="1.8"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_switch" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_superinterfaces" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_method_declaration_parameters" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_after_type_annotation" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_brace_in_array_initializer" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_parenthesized_expression" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.comment.format_html" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_at_in_annotation_type_declaration" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_closing_angle_bracket_in_type_parameters" value="insert"/><!-- v4 !-->
+    <setting id="$root.parentheses_positions_in_method_delcaration" value="common_lines"/><!-- v4 !-->
+    <setting id="$root.alignment_for_compact_if" value="16"/><!-- v4 !-->
+    <setting id="$root.indent_empty_lines" value="false"/><!-- v4 !-->
+    <setting id="$root.alignment_for_type_arguments" value="0"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_parameterized_type_reference" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_unary_operator" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_enum_constant" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_arguments_in_annotation" value="0"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_enum_declarations" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.keep_empty_array_initializer_on_one_line" value="false"/><!-- v4 !-->
+    <setting id="$root.indent_switchstatements_compare_to_switch" value="false"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_before_else_in_if_statement" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_assignment_operator" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_constructor_declaration" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.blank_lines_before_new_chunk" value="1"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_after_label" value="insert"/><!-- v4 !-->
+    <setting id="$root.indent_body_declarations_compare_to_enum_declaration_header" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_bracket_in_array_allocation_expression" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_constructor_declaration" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_colon_in_conditional" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_angle_bracket_in_parameterized_type_reference" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_method_declaration_parameters" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_angle_bracket_in_type_arguments" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_cast" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_colon_in_assert" value="insert"/><!-- v4 !-->
+    <setting id="$root.blank_lines_before_member_type" value="1"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_before_while_in_do_statement" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_bracket_in_array_type_reference" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_angle_bracket_in_parameterized_type_reference" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_arguments_in_qualified_allocation_expression" value="16"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_after_opening_brace_in_array_initializer" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_in_empty_enum_declaration" value="insert"/><!-- v4 !-->
+    <setting id="$root.indent_breaks_compare_to_cases" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_method_declaration" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_if" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_semicolon" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_postfix_operator" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_try" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_angle_bracket_in_type_arguments" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_cast" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.comment.format_block_comments" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_lambda_arrow" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_method_declaration" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.keep_imple_if_on_one_line" value="false"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_enum_declaration" value="insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_parameters_in_method_declaration" value="16"/><!-- v4 !-->
+    <setting id="$root.insert_space_between_brackets_in_array_type_reference" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_angle_bracket_in_type_parameters" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_semicolon_in_for" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_method_declaration_throws" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_bracket_in_array_allocation_expression" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.indent_statements_compare_to_body" value="true"/><!-- v4 !-->
+    <setting id="$root.alignment_for_multiple_fields" value="16"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_enum_constant_arguments" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_prefix_operator" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_array_initializer" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.wrap_before_binary_operator" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_method_declaration" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_type_parameters" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_catch" value="do not insert"/><!-- v4 !-->
+    <setting id="org.eclipse.jdt.core.compiler.compliance" value="1.8"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_bracket_in_array_reference" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_comma_in_annotation" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_enum_constant_arguments" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.parentheses_positions_in_lambda_declaration" value="common_lines"/><!-- v4 !-->
+    <setting id="$root.insert_space_between_empty_braces_in_array_initializer" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_colon_in_case" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_multiple_local_declarations" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_annotation_type_declaration" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_bracket_in_array_reference" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_method_declaration" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.wrap_outer_expressions_when_nested" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_closing_paren_in_cast" value="insert"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_enum_constant" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.brace_position_for_type_declaration" value="end_of_line"/><!-- v4 !-->
+    <setting id="$root.blank_lines_before_package" value="0"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_for" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_synchronized" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_for_increments" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_annotation_type_member_declaration" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.alignment_for_expressions_in_for_loop_header" value="0"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_while" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_enum_constant" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_explicitconstructorcall_arguments" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_paren_in_annotation" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_angle_bracket_in_type_parameters" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.indent_body_declarations_compare_to_enum_constant_header" value="false"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_lambda_arrow" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_brace_in_constructor_declaration" value="insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_constructor_declaration_throws" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.join_lines_in_comments" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_closing_angle_bracket_in_type_parameters" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_question_in_conditional" value="insert"/><!-- v4 !-->
+    <setting id="$root.comment.indent_parameter_description" value="true"/><!-- v4 !-->
+    <setting id="$root.insert_new_line_before_finally_in_try_statement" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.tabulation.char" value="space"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_comma_in_multiple_field_declarations" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.blank_lines_between_import_groups" value="1"/><!-- v4 !-->
+    <setting id="$root.lineSplit" value="120"/><!-- v4 !-->
+    <setting id="$root.insert_space_after_opening_paren_in_annotation" value="do not insert"/><!-- v4 !-->
+    <setting id="$root.insert_space_before_opening_paren_in_switch" value="insert"/><!-- v4 !-->
+</profile>
