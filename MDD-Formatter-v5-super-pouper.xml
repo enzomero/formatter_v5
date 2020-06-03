@@ -5,6 +5,7 @@
     <setting id="$root.comment.insert_new_line_before_root_tags" value="do not insert"/><!-- v3 !-->
     <setting id="$root.disabling_tag" value="@formatter:off"/><!-- v3 !-->
     <setting id="$root.insert_space_after_comma_in_annotation" value="insert"/><!-- v3 !-->
+
     <setting id="$root.insert_space_before_comma_in_type_parameters" value="do not insert"/><!-- v3 !-->
     <setting id="$root.insert_space_before_opening_brace_in_type_declaration" value="insert"/><!-- v3 !-->
     <setting id="$root.insert_space_after_comma_in_type_arguments" value="insert"/><!-- v3 !-->
@@ -208,7 +209,12 @@
     <setting id="$root.comment.format_javadoc_comments" value="true"/><!-- v3 !-->
     <setting id="$root.comment.line_length" value="100"/><!-- v3 !-->
     <setting id="$root.insert_new_line_after_annotation_on_package" value="insert"/><!-- v3 !-->
+
+    <!--  Imports rules -->
     <setting id="$root.blank_lines_between_import_groups" value="1"/><!-- v3 !-->
+    <setting id="$root.blank_lines_before_imports" value="1"/><!-- v3 !-->
+    <setting id="$root.blank_lines_after_imports" value="1"/><!-- v3 !-->
+
     <setting id="$root.insert_space_before_comma_in_enum_constant_arguments" value="do not insert"/><!-- v3 !-->
     <setting id="$root.insert_space_before_semicolon" value="do not insert"/><!-- v3 !-->
     <setting id="$root.brace_position_for_constructor_declaration" value="end_of_line"/><!-- v3 !-->
@@ -232,7 +238,6 @@
     <setting id="$root.insert_space_before_colon_in_default" value="do not insert"/><!-- v3 !-->
     <setting id="$root.insert_space_before_and_in_type_parameter" value="insert"/><!-- v3 !-->
     <setting id="$root.insert_space_between_empty_parens_in_constructor_declaration" value="do not insert"/><!-- v3 !-->
-    <setting id="$root.blank_lines_before_imports" value="1"/><!-- v3 !-->
     <setting id="$root.insert_space_after_colon_in_assert" value="insert"/><!-- v3 !-->
     <setting id="$root.comment.format_html" value="true"/><!-- v3 !-->
     <setting id="$root.alignment_for_throws_clause_in_method_declaration" value="16"/><!-- v3 !-->
@@ -279,7 +284,6 @@
     <setting id="$root.insert_space_after_comma_in_parameterized_type_reference" value="insert"/><!-- v3 !-->
     <setting id="$root.insert_space_after_comma_in_method_invocation_arguments" value="insert"/><!-- v3 !-->
     <setting id="$root.comment.new_lines_at_javadoc_boundaries" value="true"/><!-- v3 !-->
-    <setting id="$root.blank_lines_after_imports" value="1"/><!-- v3 !-->
     <setting id="$root.insert_space_after_comma_in_multiple_local_declarations" value="insert"/><!-- v3 !-->
     <setting id="$root.indent_body_declarations_compare_to_enum_constant_header" value="false"/><!-- v3 !-->
     <setting id="$root.insert_space_after_semicolon_in_for" value="insert"/><!-- v3 !-->
@@ -300,11 +304,7 @@
     <setting id="$root.insert_new_line_after_annotation_on_package" value="insert"/><!-- v4 !--><!-- v4 !-->
     <setting id="$root.parentheses_positions_in_method_invocation" value="common_lines"/><!-- v4 !--><!-- v4 !-->
     <setting id="$root.insert_space_between_empty_parens_in_enum_constant" value="do not insert"/><!-- v4 !--><!-- v4 !-->
-    <setting id="$root.blank_lines_after_imports" value="1"/><!-- v4 !--><!-- v4 !-->
     <setting id="$root.insert_space_before_closing_paren_in_while" value="do not insert"/><!-- v4 !--><!-- v4 !-->
-    <setting id="$root.comment.insert_new_line_before_root_tags" value="do not insert"/><!-- v4 !--><!-- v4 !-->
-    <setting id="$root.disabling_tag" value="@formatter:off"/><!-- v4 !--><!-- v4 !-->
-    <setting id="$root.insert_space_after_comma_in_annotation" value="insert"/><!-- v4 !--><!-- v4 !-->
     <setting id="$root.insert_space_before_comma_in_type_parameters" value="do not insert"/><!-- v4 !--><!-- v4 !-->
     <setting id="$root.insert_space_before_opening_brace_in_type_declaration" value="insert"/><!-- v4 !--><!-- v4 !-->
     <setting id="$root.insert_space_after_comma_in_type_arguments" value="insert"/><!-- v4 !--><!-- v4 !-->
@@ -330,10 +330,10 @@
     <setting id="$root.insert_space_before_comma_in_for_inits" value="do not insert"/><!-- v4 !-->
     <setting id="$root.insert_new_line_in_empty_anonymous_type_declaration" value="insert"/><!-- v4 !-->
     <setting id="$root.insert_space_after_semicolon_in_for" value="insert"/><!-- v4 !-->
-    <setting id="$root.disabling_tag" value="@formatter:off"/><!-- v4 !-->
+
     <setting id="$root.continuation_indentation" value="2"/><!-- v4 !-->
     <setting id="$root.alignment_for_enum_constants" value="49"/><!-- v4 !-->
-    <setting id="$root.blank_lines_before_imports" value="1"/><!-- v4 !-->
+
     <setting id="$root.blank_lines_after_package" value="1"/><!-- v4 !-->
     <setting id="$root.insert_space_after_binary_operator" value="insert"/><!-- v4 !-->
     <setting id="$root.insert_space_after_comma_in_multiple_local_declarations" value="insert"/><!-- v4 !-->
@@ -572,7 +572,7 @@
     <setting id="$root.insert_space_before_closing_paren_in_catch" value="do not insert"/><!-- v4 !-->
     <setting id="org.eclipse.jdt.core.compiler.compliance" value="1.8"/><!-- v4 !-->
     <setting id="$root.insert_space_before_closing_bracket_in_array_reference" value="do not insert"/><!-- v4 !-->
-    <setting id="$root.insert_space_after_comma_in_annotation" value="insert"/><!-- v4 !-->
+
     <setting id="$root.insert_space_before_comma_in_enum_constant_arguments" value="do not insert"/><!-- v4 !-->
     <setting id="$root.parentheses_positions_in_lambda_declaration" value="common_lines"/><!-- v4 !-->
     <setting id="$root.insert_space_between_empty_braces_in_array_initializer" value="do not insert"/><!-- v4 !-->
@@ -607,7 +607,7 @@
     <setting id="$root.insert_new_line_before_finally_in_try_statement" value="do not insert"/><!-- v4 !-->
     <setting id="$root.tabulation.char" value="space"/><!-- v4 !-->
     <setting id="$root.insert_space_before_comma_in_multiple_field_declarations" value="do not insert"/><!-- v4 !-->
-    <setting id="$root.blank_lines_between_import_groups" value="1"/><!-- v4 !-->
+
     <setting id="$root.lineSplit" value="120"/><!-- v4 !-->
     <setting id="$root.insert_space_after_opening_paren_in_annotation" value="do not insert"/><!-- v4 !-->
     <setting id="$root.insert_space_before_opening_paren_in_switch" value="insert"/><!-- v4 !-->
